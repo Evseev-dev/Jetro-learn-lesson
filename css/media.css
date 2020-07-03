@@ -1,0 +1,217 @@
+
+@media (max-width: 1000px) {
+  .slider__img {
+    display: block;
+    width: 100%;
+  }
+  .slider__down {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .works__inner {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: 0 auto;
+  }
+  .works__item {
+    margin: 0 20px 20px 0;
+
+  }
+}
+
+@media (max-width: 850px) {
+  .slider__info {
+    max-width: 325px;
+    left: 20px;
+    bottom: 20px;
+  }
+  .slider__title {
+    font-size: 12px;
+    margin: 8px 0 10px 0;
+  }
+  .slider__text {
+    margin-bottom: 10px;
+  }
+
+  .footer__item {
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-us__inner {
+    flex-wrap: wrap;
+  }
+  .about-us__item {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about-us__title {
+    display: inline-block;
+    padding-left: 0;
+  }
+
+  .about-us__pic-1::before {
+    top: -10px;
+    left: -82px;
+  }
+
+  .about-us__pic-2::before {
+    top: -18px;
+    left: -65px;
+  }
+
+  .about-us__pic-3::before {
+    top: -9px;
+    left: -55px;
+  }
+}
+
+@media (max-width: 650px) {
+  .works__inner {
+    width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__menu-btn {
+    display: block;
+  }
+
+  .header__menu-list {
+    display: none;
+    position: absolute;
+    top: 61px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-top: 2px solid #e8663c;
+    border-bottom: 4px solid #e8663c;
+    z-index: 2;
+  }
+
+  .header__menu-item + .header__menu-item {
+    display: block;
+    margin-left: 0;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  .header__menu-link {
+    display: block;
+    padding: 15px 0;
+  } 
+
+  .slider-icon {
+    width: 50%;
+  }
+
+  .slick-next {
+    right: 0;
+  }
+  .slick-prev {
+    left: -5px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .footer__title {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .footer__item {
+    margin-bottom: 20px;
+  }
+
+  .about-jetro {
+    max-width: 100%;
+  }
+
+  .footer__desc {
+    padding-right: 10px;
+  }
+
+  .twitter {
+    max-width: 100%;
+  }
+
+  .contact {
+    max-width: 100%;
+    padding-right: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-us__pic-1::before,
+  .about-us__pic-2::before,
+  .about-us__pic-3::before {
+    background-image: none;
+  }
+
+  .about-us__title,
+  .works__title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider__info {
+    max-width: 300px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 20px;
+  }
+
+  .slider__title {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .slider__text {
+    font-size: 9px;
+    line-height: 10px;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .slider-icon {
+    width: 0;
+  }
+
+  .slider__info {
+    max-width: 300px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .slider__title {
+    font-size: 8px;
+  }
+
+  .slider__text {
+    font-size: 6px;
+    line-height: 7px;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 600px) {
+  .header__menu-list {
+    display: block !important;
+  }
+}
